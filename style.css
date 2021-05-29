@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;  
+}
+.banner{
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px; 
+}
+.books{
+    background-color: rgb(128, 128, 128);
+    margin: auto;
+    display: grid;
+    font-size: 20px;
+    border-radius: 2%;
+    width: 60%;
+    padding: 10px;
+}
+.books h1{
+    color:violet;
+    text-align: center;
+    margin-top: 10px;
+}
+.eticheta{
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+input{
+    border-radius: 5px;
+    border-color: gray;
+    border-style: ridge;
+    padding: 20px;
+    outline: none;
+    height: 25px;
+    width: 100%;
+    margin-bottom:20px;
+}
+input:focus{
+    border-color:rgb(98, 199, 230);
+}
+button{
+    color:rgb(28, 28, 133);
+    font-style: bold;
+    font-size: 15px;
+    padding:10px;
+    border-style: ridge;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color:violet;
+    margin: auto;
+}
+button:hover{
+    border-width: medium;
+}
+table{
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.remove{
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+    padding: 10px;
+    color:rgb(243, 243, 27);
+    font-size: 25px;
+}

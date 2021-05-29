@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Salsa"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+    <title>Online catalog for librarians</title>
+</head>
+<body>
+    <div class="books">
+        <!--titlul-->
+        <h1>Online catalog for librarians</h1><br>
+        
+            <!--bannerul-->
+            <div class="banner" id="banner"></div><br>
+
+            <!--fielduri de completat-->
+            <label for="title" class="eticheta">Title</label><br>
+            <input type="text" id="titlu"></input><br>
+            <label for="author"class="eticheta">Author</label><br>
+            <input type="text" id="author"></input><br>
+            <label for="ISBN" class="eticheta">ISBN</label><br>
+            <input type="text" id="isbn"></input><br><br>
+            
+            <!--butonul de add-->
+            <button id="myBtn"><b>SUBMIT</b></button><br><br>
+
+            <!--tabel completat-->
+            <table id="books">
+                <thead>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>ISBN</th>
+                  <th></th>
+                </thead>
+            </table>
+        </div> 
+    <script src="app.js"></script>   
+</body>
+</html>
+
+
+
+
+
