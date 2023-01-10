@@ -60,29 +60,6 @@ function addbook(){
     const ui = new UI(book.title, book.author, book.isbn);
     console.log(ui);
     ui.addBook();
-
-    /*const x = titleInput.value;
-    const y = authorInput.value;
-    const z = isbnInput.value;
-    if(x !== "" && y !== "" && z !== ""){
-        const book = new Book(x, y, z);
-        const tableBooks = 
-        `<tr>
-            <td>${book.title}</td>
-            <td>${book.author}</td>
-            <td>${book.isbn}</td>
-            <td><button class = 'remove'>X</td>
-        </tr>`
-        table.innerHTML = table.innerHTML + tableBooks;
-        banner.innerHTML = "Book added";
-        banner.style.backgroundColor = 'rgb(68, 235, 214)';
-        banner.style.color = 'white';
-        console.log(tableBooks);
-    }
-    else{
-        banner.innerHTML = "Fill in all fields, please!";
-        banner.style.backgroundColor = 'red';
-    }*/
 }
 
 // X BUTTON
@@ -93,15 +70,4 @@ function removeRow(e){
     const a = e.target.classList.contains('remove');
     const b = e.target.parentNode.parentNode.remove();
     ui.removerow(a, b);
-    
-    /*console.log(e.target.parentNode.parentNode);
-    const x = e.target.parentNode.parentNode;
-    if(e.target.classList.contains('remove')){
-        x.remove();
-    banner.innerHTML = "Book deleted";
-    banner.style.backgroundColor = 'rgb(232, 186, 89)';
-    banner.style.color = 'black';
-    titleInput.value = '';
-    authorInput.value = '';
-    isbnInput.value = '';*/
     }
